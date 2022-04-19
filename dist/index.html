@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ValMari</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <!-- sprite -->
+  <svg style="display: none;">
+    <symbol id="facebook" viewBox="0 0 28 28">
+      <g>
+        <path
+          d="M24.5 0H3.5C1.56975 0 0 1.56975 0 3.5V24.5C0 26.4303 1.56975 28 3.5 28H14V18.375H10.5V14H14V10.5C14 7.60025 16.3503 5.25 19.25 5.25H22.75V9.625H21C20.034 9.625 19.25 9.534 19.25 10.5V14H23.625L21.875 18.375H19.25V28H24.5C26.4303 28 28 26.4303 28 24.5V3.5C28 1.56975 26.4303 0 24.5 0Z" />
+      </g>
+    </symbol>
+    <symbol id="instagram" viewBox="0 0 29 29">
+      <g>
+        <path
+          d="M21.1499 0H7.85002C3.52145 0 0 3.52145 0 7.85002V21.1501C0 25.4785 3.52145 28.9999 7.85002 28.9999H21.1501C25.4785 28.9999 28.9999 25.4785 28.9999 21.1501V7.85002C28.9999 3.52145 25.4785 0 21.1499 0V0ZM14.5 22.4294C10.1276 22.4294 6.57052 18.8724 6.57052 14.5C6.57052 10.1276 10.1276 6.57052 14.5 6.57052C18.8724 6.57052 22.4294 10.1276 22.4294 14.5C22.4294 18.8724 18.8724 22.4294 14.5 22.4294ZM22.619 8.44054C21.3269 8.44054 20.276 7.3896 20.276 6.09748C20.276 4.80537 21.3269 3.7542 22.619 3.7542C23.9111 3.7542 24.9623 4.80537 24.9623 6.09748C24.9623 7.3896 23.9111 8.44054 22.619 8.44054Z" />
+        <path
+          d="M14.4999 8.27075C11.0651 8.27075 8.27051 11.0652 8.27051 14.5001C8.27051 17.9348 11.0651 20.7295 14.4999 20.7295C17.9348 20.7295 20.7292 17.9348 20.7292 14.5001C20.7292 11.0652 17.9348 8.27075 14.4999 8.27075Z" />
+        <path
+          d="M22.619 5.45435C22.2646 5.45435 21.9761 5.74286 21.9761 6.0973C21.9761 6.45175 22.2646 6.74026 22.619 6.74026C22.9737 6.74026 23.2622 6.45197 23.2622 6.0973C23.2622 5.74264 22.9737 5.45435 22.619 5.45435Z" />
+      </g>
+    </symbol>
+  </svg>
+
+  <header class="header">
+    <div class="header__inner">
+      <div class="header__content">
+        <div class="container">
+          <div class="header__info">
+            <a class="header__logo" href="#">
+              <img class="header__logo-img" src="images/logo.svg" alt="ValMari">
+            </a>
+            <a href="tel:0800508622" class="header__phone">0 (800) 508-622</a>
+            <div class="header__social social">
+              <a class="social-link" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="#facebook"></use>
+                </svg>
+              </a>
+              <a class="social-link" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="header__lang">
+              <ul class="header__lang-list">
+                <li class="header__lang-item">
+                  <a href="" class="header__lang-link">
+                    <img class="header__lang-icon" src="images/russia.png" alt="ru">
+                  </a>
+                </li>
+                <li class="header__lang-item">
+                  <a href="" class="header__lang-link">
+                    <img class="header__lang-icon" src="images/russia.png" alt="ru">
+                  </a>
+                </li>
+                <li class="header__lang-item">
+                  <a href="" class="header__lang-link">
+                    <img class="header__lang-icon" src="images/russia.png" alt="ru">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="header__menu">
+        <div class="container">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#">Курсы обучения</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#">Вебинары</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#">Видео-уроки</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#">Блог</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#">О нас</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#">Прайс</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#">Рассписание</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#">Акции</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#">Магазин</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="wrapper">
+    <div class="main">
+      <section class="top">
+        <div class="container">
+          <div class="top__inner">
+            <span class="top__description">Бесплатный вебинар</span>
+            <h1 class="top__title">ПРОФЕССИЯ КОСМЕТОЛОГ</h1>
+            <p class="top__text">
+              Приглашаем на бесплатный вебинар для профессиональных косметологов и интересующихся этой профессией
+            </p>
+            <a href="#" class=" top__btn top__btn--register">Зарегистрироваться</a>
+            <a href="#" class=" top__btn top__btn--more">Узнать подробнее</a>
+          </div>
+        </div>
+      </section>
+      <section class="courses">
+        <div class="container">
+          <div class="courses__inner">
+            <div class="courses__result">
+              <div class="courses__result-item">
+                <span class="courses__result-num">4000+</span>
+                <span class="courses__result-text">Сертификатов мы выдали</span>
+              </div>
+              <div class="courses__result-item">
+                <span class="courses__result-num">3500+</span>
+                <span class="courses__result-text">Моделей в нашей базе</span>
+              </div>
+              <div class="courses__result-item">
+                <span class="courses__result-num">1500+</span>
+                <span class="courses__result-text">Специалистов мы обучили</span>
+              </div>
+              <div class="courses__result-item">
+                <span class="courses__result-num">5500+</span>
+                <span class="courses__result-text">Довольных клиентов</span>
+              </div>
+            </div>
+            <h3 class="courses__title">Курсы обучения</h3>
+            <div class="courses__slider">
+              <div class="courses__slider-item">
+                <div class="courses__slider-info">
+                  <img class="courses__slider-logo" src="images/courses/courses-logo.svg" alt="courses logo">
+                  <span class="courses__slider-subtitle">Курс для медиков</span>
+                  <h4 class="courses__slider-title blue">Канюльные<br> техники</h4>
+                  <span class="courses__slider-format blue">Оффлайн</span>
+                  <span class="courses__slider-date">1 - 4 мая</span>
+                  <div class="courses__slider-description">
+                    <p class="courses__slider-text blue">
+                      Краткое описание<br>
+                      Что-то о курсе<br>
+                      Пару фактов<br>
+                      Краткое описание
+                    </p>
+                    <img class="courses__slider-img" src="images/courses/slider-1.png" alt="">
+                  </div>
+                  <span class="courses__slider-seats">Свободно 2 из 15 мест</span>
+                </div>
+                <a href="#" class="courses__slider-btn courses__slider-btn--register blue">Зарегистрироваться</a>
+                <a href="#" class="courses__slider-btn courses__slider-btn--more blue">Подробнее</a>
+              </div>
+              <div class="courses__slider-item">
+                <div class="courses__slider-info">
+                  <img class="courses__slider-logo" src="images/courses/courses-logo.svg" alt="courses logo">
+                  <span class="courses__slider-subtitle">Курс для медиков</span>
+                  <h4 class="courses__slider-title accent">Мезотерапия и биоревителизация</h4>
+                  <span class="courses__slider-format accent">Онлайн</span>
+                  <span class="courses__slider-date">15 - 20 мая</span>
+                  <div class="courses__slider-description">
+                    <p class="courses__slider-text accent">
+                      Краткое описание<br>
+                      Что-то о курсе<br>
+                      Пару фактов<br>
+                      Краткое описание
+                    </p>
+                    <img class="courses__slider-img" src="images/courses/slider-1.png" alt="">
+                  </div>
+                  <span class="courses__slider-seats">Свободно 2 из 15 мест</span>
+                </div>
+                <a href="#" class="courses__slider-btn courses__slider-btn--register accent">Зарегистрироваться</a>
+                <a href="#" class="courses__slider-btn courses__slider-btn--more accent">Подробнее</a>
+              </div>
+              <div class="courses__slider-item">
+                <div class="courses__slider-info">
+                  <img class="courses__slider-logo" src="images/courses/courses-logo.svg" alt="courses logo">
+                  <span class="courses__slider-subtitle">Курс для медиков</span>
+                  <h4 class="courses__slider-title cyan">Биогель - новое в косметологии</h4>
+                  <span class="courses__slider-format cyan">Мастер-класс</span>
+                  <span class="courses__slider-date">2 - 5 августа</span>
+                  <div class="courses__slider-description">
+                    <p class="courses__slider-text cyan">
+                      Краткое описание<br>
+                      Что-то о курсе<br>
+                      Пару фактов<br>
+                      Краткое описание
+                    </p>
+                    <img class="courses__slider-img" src="images/courses/slider-2.png" alt="">
+                  </div>
+                  <span class="courses__slider-seats">Свободно 2 из 15 мест</span>
+                </div>
+                <a href="#" class="courses__slider-btn courses__slider-btn--register cyan">Зарегистрироваться</a>
+                <a href="#" class="courses__slider-btn courses__slider-btn--more cyan">Подробнее</a>
+              </div>
+              <div class="courses__slider-item">
+                <div class="courses__slider-info">
+                  <img class="courses__slider-logo" src="images/courses/courses-logo.svg" alt="courses logo">
+                  <span class="courses__slider-subtitle">Курс для медиков</span>
+                  <h4 class="courses__slider-title blue">Канюльные<br> техники</h4>
+                  <span class="courses__slider-format blue">Оффлайн</span>
+                  <span class="courses__slider-date">1 - 4 мая</span>
+                  <div class="courses__slider-description">
+                    <p class="courses__slider-text blue">
+                      Краткое описание<br>
+                      Что-то о курсе<br>
+                      Пару фактов<br>
+                      Краткое описание
+                    </p>
+                    <img class="courses__slider-img" src="images/courses/slider-1.png" alt="">
+                  </div>
+                  <span class="courses__slider-seats">Свободно 2 из 15 мест</span>
+                </div>
+                <a href="#" class="courses__slider-btn courses__slider-btn--register blue">Зарегистрироваться</a>
+                <a href="#" class="courses__slider-btn courses__slider-btn--more blue">Подробнее</a>
+              </div>
+              <div class="courses__slider-item">
+                <div class="courses__slider-info">
+                  <img class="courses__slider-logo" src="images/courses/courses-logo.svg" alt="courses logo">
+                  <span class="courses__slider-subtitle">Курс для медиков</span>
+                  <h4 class="courses__slider-title accent">Мезотерапия и биоревителизация</h4>
+                  <span class="courses__slider-format accent">Онлайн</span>
+                  <span class="courses__slider-date">15 - 20 мая</span>
+                  <div class="courses__slider-description">
+                    <p class="courses__slider-text accent">
+                      Краткое описание<br>
+                      Что-то о курсе<br>
+                      Пару фактов<br>
+                      Краткое описание
+                    </p>
+                    <img class="courses__slider-img" src="images/courses/slider-1.png" alt="">
+                  </div>
+                  <span class="courses__slider-seats">Свободно 2 из 15 мест</span>
+                </div>
+                <a href="#" class="courses__slider-btn courses__slider-btn--register accent">Зарегистрироваться</a>
+                <a href="#" class="courses__slider-btn courses__slider-btn--more accent">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="about__inner">
+            <img class="about__img" src="images/about-img.png" alt="about">
+            <div class="about__info">
+              <span class="about__subtitle">О нас</span>
+              <span class="about__title-name">VALMARI</span>
+              <h2 class="about__title">
+                ВЕДУЩИЙ УЧЕБНЫЙ ЦЕНТР ЭСТЕТИЧЕСКОЙ КОСМЕТОЛОГИИ
+              </h2>
+              <div class="about__info-text">
+                <p>Описание может быть любое.</p>
+                <p>Ведущий учебный центр эстетической косметологии. </p>
+                <p>Более 5 лет мы проводим курсы сертифицированные курсы профессионального образования в области
+                  косметологии и индустрии красоты, здоровья и молодости</p>
+              </div>
+              <a class="about__info-link" href="#">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="lessons">
+        <div class="container">
+          <div class="lessons__inner">
+            <h3 class="lessons__title">Обучение косметологов</h3>
+            <div class="lessons__items">
+              <a class="lessons__item" href="#">
+                <img class="lessons__img" src="images/lessons/lesson-1.png" alt="lesson 1">
+                <div class="lessons__item-content">
+                  <h4 class="lessons__item-title">курсы<br> косметологии</h4>
+                  <ul class="lessons__item-list">
+                    <li class="lessons__item-text">эстетическая косметология</li>
+                    <li class="lessons__item-text">инъекционная косметология</li>
+                    <li class="lessons__item-text">лазерная косметология</li>
+                  </ul>
+                </div>
+              </a>
+              <a class="lessons__item" href="#">
+                <img class="lessons__img" src="images/lessons/lesson-2.png" alt="lesson 1">
+                <div class="lessons__item-content">
+                  <ul class="lessons__item-list">
+                    <li class="lessons__item-text">эстетическая косметология</li>
+                    <li class="lessons__item-text">инъекционная косметология</li>
+                    <li class="lessons__item-text">лазерная косметология</li>
+                  </ul>
+                  <h4 class="lessons__item-title">Онлайн обучение</h4>
+                </div>
+              </a>
+              <a class="lessons__item" href="#">
+                <img class="lessons__img" src="images/lessons/lesson-3.png" alt="lesson 1">
+                <div class="lessons__item-content">
+                  <ul class="lessons__item-list">
+                    <li class="lessons__item-text">эстетическая косметология</li>
+                    <li class="lessons__item-text">инъекционная косметология</li>
+                    <li class="lessons__item-text">лазерная косметология</li>
+                  </ul>
+                  <h4 class="lessons__item-title">мастер-классы</h4>
+                </div>
+              </a>
+              <a class="lessons__item" href="#">
+                <img class="lessons__img" src="images/lessons/lesson-4.png" alt="lesson 1">
+                <div class="lessons__item-content">
+                  <h4 class="lessons__item-title">расписание</h4>
+                  <ul class="lessons__item-list">
+                    <li class="lessons__item-text">эстетическая косметология</li>
+                    <li class="lessons__item-text">инъекционная косметология</li>
+                    <li class="lessons__item-text">лазерная косметология</li>
+                  </ul>
+                </div>
+              </a>
+              <a class="lessons__item" href="#">
+                <img class="lessons__img" src="images/lessons/lesson-5.png" alt="lesson 1">
+                <div class="lessons__item-content">
+                  <ul class="lessons__item-list">
+                    <li class="lessons__item-text">эстетическая косметология</li>
+                    <li class="lessons__item-text">инъекционная косметология</li>
+                    <li class="lessons__item-text">лазерная косметология</li>
+                  </ul>
+                  <h4 class="lessons__item-title">Акции</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="recruite">
+        <div class="container">
+          <div class="recruite__inner">
+            <div class="recruite__info">
+              <h2 class="recruite__title">
+                ВЕДЕМ НАБОР МОДЕЛЕЙ
+              </h2>
+              <div class="recruite__info-text">
+                <p>Мы предлагаем свои услуги для моделей. </p>
+                <p>Выберите процедуру или несколько процедур и наш менеджер проконсультирует вас и назовет ближайшую
+                  дату, когда вы сможете получить эту процедуру.</p>
+              </div>
+              <a class="recruite__info-btn" href="#">Стать моделью</a>
+            </div>
+            <img class="recruite__img" src="images/recruite-img.png" alt="recruite">
+          </div>
+        </div>
+      </section>
+      <!-- <section class="master-class">
+        <div class="container">
+          <div class="master-class__inner">
+            <h3 class="master-class__title">Мастер-классы</h3>
+            <p class="master-class__subtitle">
+              Мероприятия для повышения квалификации косметологов
+            </p>
+            <div class="master-class__slider">
+              <div class="master-class__item">
+                <div class="master-class__img">
+                  <img src="images/master-class-1.png" alt="master class">
+                </div>
+                <div class="master-class__content">
+                  <div class="master-class__info">
+                    <span class="master-class__info-date">
+                      3 ноября, 10:00-12:00
+                    </span>
+                    <p class="master-class__info-text">
+                      10 возможностей неодимового лазера. Лазерный пилинг, удаление тату/татуажа
+                    </p>
+                    <span class="master-class__info-couch">Тренер: Юлия Щукина</span>
+                  </div>
+                  <div class="master-class__btns">
+                    <span class="master-class__price">2000 грн</span>
+                    <a class="master-class__btn" href="#">
+                      <img class="master-class__btn-arrow" src="images/master-class-arrow.svg" alt="button arrow">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="master-class__item">
+                <div class="master-class__img">
+                  <img src="images/master-class-2.png" alt="master class">
+                </div>
+                <div class="master-class__content">
+                  <div class="master-class__info">
+                    <span class="master-class__info-date">
+                      20 ноября, 12:00-17:00
+                    </span>
+                    <p class="master-class__info-text">
+                      Профессия косметолог. Семинар для новичков и профессионалов
+                    </p>
+                    <span class="master-class__info-couch">
+                      Спикеры: Марина Спивак, Алина Ядчишина, Елена Белогурова, Юлия Щукина
+                    </span>
+                  </div>
+                  <div class="master-class__btns">
+                    <div class="master-class__price">Бесплатно</div>
+                    <a class="master-class__btn" href="#">
+                      <img class="master-class__btn-arrow" src="images/master-class-arrow.svg" alt="button arrow">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="master-class__item">
+                <div class="master-class__img">
+                  <img src="images/master-class-1.png" alt="master class">
+                </div>
+                <div class="master-class__content">
+                  <div class="master-class__info">
+                    <span class="master-class__info-date">
+                      3 ноября, 10:00-12:00
+                    </span>
+                    <p class="master-class__info-text">
+                      10 возможностей неодимового лазера. Лазерный пилинг, удаление тату/татуажа
+                    </p>
+                    <span class="master-class__info-couch">Тренер: Юлия Щукина</span>
+                  </div>
+                  <div class="master-class__btns">
+                    <span class="master-class__price">2000 грн</span>
+                    <a class="master-class__btn" href="#">
+                      <img class="master-class__btn-arrow" src="images/master-class-arrow.svg" alt="button arrow">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="master-class__item">
+                <div class="master-class__img">
+                  <img src="images/master-class-2.png" alt="master class">
+                </div>
+                <div class="master-class__content">
+                  <div class="master-class__info">
+                    <span class="master-class__info-date">
+                      20 ноября, 12:00-17:00
+                    </span>
+                    <p class="master-class__info-text">
+                      Профессия косметолог. Семинар для новичков и профессионалов
+                    </p>
+                    <span class="master-class__info-couch">
+                      Спикеры: Марина Спивак, Алина Ядчишина, Елена Белогурова, Юлия Щукина
+                    </span>
+                  </div>
+                  <div class="master-class__btns">
+                    <div class="master-class__price">Бесплатно</div>
+                    <a class="master-class__btn" href="#">
+                      <img class="master-class__btn-arrow" src="images/master-class-arrow.svg" alt="button arrow">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="master-class__item">
+                <div class="master-class__img">
+                  <img src="images/master-class-1.png" alt="master class">
+                </div>
+                <div class="master-class__content">
+                  <div class="master-class__info">
+                    <span class="master-class__info-date">
+                      3 ноября, 10:00-12:00
+                    </span>
+                    <p class="master-class__info-text">
+                      10 возможностей неодимового лазера. Лазерный пилинг, удаление тату/татуажа
+                    </p>
+                    <span class="master-class__info-couch">Тренер: Юлия Щукина</span>
+                  </div>
+                  <div class="master-class__btns">
+                    <span class="master-class__price">2000 грн</span>
+                    <a class="master-class__btn" href="#">
+                      <img class="master-class__btn-arrow" src="images/master-class-arrow.svg" alt="button arrow">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <section class="benefits">
+        <div class="container">
+          <div class="benefits__inner">
+            <h3 class="benefits__title">Почему мы</h3>
+            <div class="benefits__items">
+              <div class="benefits__item">
+                <div class="benefits__item-content">
+                  <h6 class="benefits__item-title">Преподаватели</h6>
+                  <p class="benefits__item-text">
+                    Наши преподаватели имеют многолетний опыт в сфере косметологии и совмещают преподовательскую деятельность с практической работой в салонах красоты и других специализированных центрах.
+                  </p>
+                </div>
+              </div>
+              <div class="benefits__item">
+                <div class="benefits__item-content">
+                  <h6 class="benefits__item-title">Сертификаты</h6>
+                  <p class="benefits__item-text">
+                    Удостоверение, сертификат и свидетельство полученные у нас по окончанию курсов, работают как лучшая "рекомендация" при приеме на работу
+                  </p>
+                </div>
+              </div>
+              <div class="benefits__item">
+                <div class="benefits__item-content">
+                  <h6 class="benefits__item-title">Повышение квалификации</h6>
+                  <p class="benefits__item-text">
+                    Ежегодно, больше 2000 косметологов повышают квалификацию и уровень профессионализма в просторных кабинетах нашего центра.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="specials">
+        <div class="container">
+          <div class="specials__inner">
+            <h6 class="specials__title">Специальные предложения</h6>
+            <div class="specials__slider">
+              <a class="specials__link" href="#">
+                <img class="specials__img" src="images/special-1.png" alt="special 1">
+              </a>
+              <a class="specials__link" href="#">
+                <img class="specials__img" src="images/special-2.png" alt="special 2">
+              </a>
+              <a class="specials__link" href="#">
+                <img class="specials__img" src="images/special-3.png" alt="special 3">
+              </a>
+              <a class="specials__link" href="#">
+                <img class="specials__img" src="images/special-1.png" alt="special 1">
+              </a>
+              <a class="specials__link" href="#">
+                <img class="specials__img" src="images/special-2.png" alt="special 2">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="container">
+          <div class="contacts__inner">
+            <h3 class="contacts__title">Закажите обратный звонок</h3>
+            <p class="contacts__subtitle">
+              Оставьте заявку в форме и наш менеджер свяжется с вами
+            </p>
+            <form class="contacts__form">
+              <input class="contacts__input" type="text" placeholder="Ваше имя">
+              <input class="contacts__input" type="tel" placeholder="Ваш номер телефона">
+              <button class="contacts__btn" type="submit">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <footer class="footer">
+      <div class="footer__map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.033725017412!2d36.18806550365775!3d50.04819952926243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a4071e189be9%3A0x2a1385f7efd0170e!2z0JrQu9C-0YfQutC-0LLRgdC60LDRjyDRg9C7LiwgMzM3LCDQpdCw0YDRjNC60L7Qsiwg0KXQsNGA0YzQutC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjEwNTE!5e0!3m2!1sru!2sua!4v1649949621459!5m2!1sru!2sua" width="100%" height="100%"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="footer__info">
+        <a class="footer__logo" href="#">
+          <img class="footer__logo-img" src="images/footer-logo.png" alt="ValMari">
+        </a>
+        <a class="footer__phone" href="tel:0800508622">0 (800) 508-622</a>
+        <p class="footer__address">Харьков, Клочковская, д. 337</p>
+        <div class="footer__lists">
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Курсы обучения</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Вебинары</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Видео-уроки</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Прайс</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Рассписание</a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Акции</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">О нас</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Блог</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Магазин</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__social social">
+          <a class="social-link" href="#">
+            <svg class="social-icon">
+              <use xlink:href="#facebook"></use>
+            </svg>
+          </a>
+          <a class="social-link" href="#">
+            <svg class="social-icon">
+              <use xlink:href="#instagram"></use>
+            </svg>
+          </a>
+        </div>
+        <p class="footer__subtitle">Политика конфиденциальности</p>
+      </div>
+    </footer>
+  </div>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
